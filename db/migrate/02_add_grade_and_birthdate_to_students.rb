@@ -1,5 +1,5 @@
 def change
-    add_column  :artists do |t|
+    add_column  :students do |t|
       t.integer :grade
       t.string :birthdate
       
