@@ -1,8 +1,7 @@
 def change
-    create_table :artists do |t|
-      t.string :name
-      t.string :genre
-      t.integer :age
-      t.string :hometown
+    add_column  :artists do |t|
+      t.integer :grade
+      t.string :birthdate
+      
     end
   end
